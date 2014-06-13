@@ -1,9 +1,41 @@
 CACHE MANIFEST
-# Revision 1402568662395
+# Revision 1402640529617
 
 CACHE:
+chapter1-mvc/partial.html
 index.html
-chapter1/README.html
+chapter1-mvc/README.html
+chapter1-mvc/collect&id.html
+chapter1-mvc/collection_partial.html
+chapter1-mvc/controller.html
+chapter1-mvc/counter_cache.html
+chapter1-mvc/essential_helpers.html
+chapter1-mvc/form.html
+chapter1-mvc/gk6ia72j2_vu_u_e9.html
+chapter1-mvc/helper.html
+chapter1-mvc/helper_patterns.html
+chapter1-mvc/helper__model.html
+chapter1-mvc/ids.html
+chapter1-mvc/includes.html
+chapter1-mvc/model.html
+chapter1-mvc/builders.html
+chapter1-mvc/partial___helper.html
+chapter1-mvc/polymorphic_assoiciaion.html
+chapter1-mvc/redirec_to__render.html
+chapter1-mvc/refactor_controller_code_to_model.html
+chapter1-mvc/render_layout.html
+chapter1-mvc/render_options.html
+chapter1-mvc/render_template.html
+chapter1-mvc/render_text.html
+chapter1-mvc/respond_to__respond_with.html
+chapter1-mvc/scope.html
+chapter1-mvc/sti.html
+chapter1-mvc/test.html
+chapter1-mvc/validation.html
+chapter1-mvc/view.html
+chapter1-mvc/yield_in_view.html
+chapter2-rails/README.html
+chapter3-ruby/README.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot

@@ -1,0 +1,804 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Chapter3 - 關於ruby | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    
+    <link rel="prev" href="../chapter2-rails/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="3" data-basepath=".." data-revision="1402640529617">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/null" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+
+        
+
+        
+
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="chapter1-mvc/README.html">
+            
+            <a href="../chapter1-mvc/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> chapter1 - 關於MVC
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="chapter1-mvc/model.html">
+            
+            <a href="../chapter1-mvc/model.html">
+                <i class="fa fa-check"></i> <b>1.1.</b> 什麼東西應該放在Model
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="chapter1-mvc/test.html">
+            
+            <a href="../chapter1-mvc/test.html">
+                <i class="fa fa-check"></i> <b>1.1.1.</b> has_many :through
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="chapter1-mvc/validation.html">
+            
+            <a href="../chapter1-mvc/validation.html">
+                <i class="fa fa-check"></i> <b>1.1.2.</b> validation
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="chapter1-mvc/scope.html">
+            
+            <a href="../chapter1-mvc/scope.html">
+                <i class="fa fa-check"></i> <b>1.1.3.</b> scope
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="chapter1-mvc/ids.html">
+            
+            <a href="../chapter1-mvc/ids.html">
+                <i class="fa fa-check"></i> <b>1.1.4.</b> ids
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="chapter1-mvc/collect&amp;id.html">
+            
+            <a href="../chapter1-mvc/collect&amp;id.html">
+                <i class="fa fa-check"></i> <b>1.1.5.</b> collect(&amp;:id)
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="chapter1-mvc/includes.html">
+            
+            <a href="../chapter1-mvc/includes.html">
+                <i class="fa fa-check"></i> <b>1.1.6.</b> includes
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="chapter1-mvc/counter_cache.html">
+            
+            <a href="../chapter1-mvc/counter_cache.html">
+                <i class="fa fa-check"></i> <b>1.1.7.</b> counter_cache
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.8" data-path="chapter1-mvc/sti.html">
+            
+            <a href="../chapter1-mvc/sti.html">
+                <i class="fa fa-check"></i> <b>1.1.8.</b> STI
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9" data-path="chapter1-mvc/polymorphic_assoiciaion.html">
+            
+            <a href="../chapter1-mvc/polymorphic_assoiciaion.html">
+                <i class="fa fa-check"></i> <b>1.1.9.</b> Polymorphic Assoiciaion
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.10" data-path="chapter1-mvc/helper__model.html">
+            
+            <a href="../chapter1-mvc/helper__model.html">
+                <i class="fa fa-check"></i> <b>1.1.10.</b> 不要把该放在 helper 的东西放在 model 里
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.11" data-path="chapter1-mvc/refactor_controller_code_to_model.html">
+            
+            <a href="../chapter1-mvc/refactor_controller_code_to_model.html">
+                <i class="fa fa-check"></i> <b>1.1.11.</b> refactor controller code to model
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1-mvc/gk6ia72j2_vu_u_e9.html">
+            
+            <a href="../chapter1-mvc/gk6ia72j2_vu_u_e9.html">
+                <i class="fa fa-check"></i> <b>1.2.</b> 什麼東西應該放在View
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="chapter1-mvc/helper.html">
+            
+            <a href="../chapter1-mvc/helper.html">
+                <i class="fa fa-check"></i> <b>1.2.1.</b> 什麼是 helper
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter1-mvc/partial.html">
+            
+            <a href="../chapter1-mvc/partial.html">
+                <i class="fa fa-check"></i> <b>1.2.2.</b> 什麼是 partial
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="chapter1-mvc/collection_partial.html">
+            
+            <a href="../chapter1-mvc/collection_partial.html">
+                <i class="fa fa-check"></i> <b>1.2.3.</b> 什麼是 collection partial
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="chapter1-mvc/partial___helper.html">
+            
+            <a href="../chapter1-mvc/partial___helper.html">
+                <i class="fa fa-check"></i> <b>1.2.4.</b> 什麼東西應該放在 partial / 什麼東西應該放在 helper
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="chapter1-mvc/yield_in_view.html">
+            
+            <a href="../chapter1-mvc/yield_in_view.html">
+                <i class="fa fa-check"></i> <b>1.2.5.</b> yield in view
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="chapter1-mvc/view.html">
+            
+            <a href="../chapter1-mvc/view.html">
+                <i class="fa fa-check"></i> <b>1.2.6.</b> 不應該放在 view 裡的東西
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="chapter1-mvc/form.html">
+            
+            <a href="../chapter1-mvc/form.html">
+                <i class="fa fa-check"></i> <b>1.2.7.</b> form
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="chapter1-mvc/essential_helpers.html">
+            
+            <a href="../chapter1-mvc/essential_helpers.html">
+                <i class="fa fa-check"></i> <b>1.2.8.</b> essential helpers
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="chapter1-mvc/helper_patterns.html">
+            
+            <a href="../chapter1-mvc/helper_patterns.html">
+                <i class="fa fa-check"></i> <b>1.2.9.</b> helper patterns
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter1-mvc/controller.html">
+            
+            <a href="../chapter1-mvc/controller.html">
+                <i class="fa fa-check"></i> <b>1.3.</b> 什麼東西應該放在Controller
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="chapter1-mvc/filters__before_filter,_after_filter,_around_filter">
+            
+            <a href="../chapter1-mvc/filters__before_filter,_after_filter,_around_filter">
+                <i class="fa fa-check"></i> <b>1.3.1.</b> filters : before_filter, after_filter, around_filter
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="chapter1-mvc/render_template.html">
+            
+            <a href="../chapter1-mvc/render_template.html">
+                <i class="fa fa-check"></i> <b>1.3.2.</b> render :template
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="chapter1-mvc/render_layout.html">
+            
+            <a href="../chapter1-mvc/render_layout.html">
+                <i class="fa fa-check"></i> <b>1.3.3.</b> render :layout
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="chapter1-mvc/render_text.html">
+            
+            <a href="../chapter1-mvc/render_text.html">
+                <i class="fa fa-check"></i> <b>1.3.4.</b> render :text
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="chapter1-mvc/render_options.html">
+            
+            <a href="../chapter1-mvc/render_options.html">
+                <i class="fa fa-check"></i> <b>1.3.5.</b> render options
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="chapter1-mvc/redirec_to__render.html">
+            
+            <a href="../chapter1-mvc/redirec_to__render.html">
+                <i class="fa fa-check"></i> <b>1.3.6.</b> redirec_to 與 render
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="chapter1-mvc/respond_to__respond_with.html">
+            
+            <a href="../chapter1-mvc/respond_to__respond_with.html">
+                <i class="fa fa-check"></i> <b>1.3.7.</b> respond_to 與 respond_with
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="chapter1-mvc/builders.html">
+            
+            <a href="../chapter1-mvc/builders.html">
+                <i class="fa fa-check"></i> <b>1.3.8.</b> builders
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="chapter2-rails/README.html">
+            
+            <a href="../chapter2-rails/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> Chapter2 - 關於Rails
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="chapter3-ruby/README.html">
+            
+            <a href="../chapter3-ruby/README.html">
+                <i class="fa fa-check"></i> <b>3.</b> Chapter3 - 關於ruby
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 100%;min-width: 97.05882352941177%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../chapter1-mvc/README.html" title="chapter1 - 關於MVC" class="chapter done new-chapter" data-progress="1" style="left: 2.9411764705882355%;"></a>
+    
+        <a href="../chapter1-mvc/model.html" title="什麼東西應該放在Model" class="chapter done " data-progress="1.1" style="left: 5.882352941176471%;"></a>
+    
+        <a href="../chapter1-mvc/test.html" title="has_many :through" class="chapter done " data-progress="1.1.1" style="left: 8.823529411764707%;"></a>
+    
+        <a href="../chapter1-mvc/validation.html" title="validation" class="chapter done " data-progress="1.1.2" style="left: 11.764705882352942%;"></a>
+    
+        <a href="../chapter1-mvc/scope.html" title="scope" class="chapter done " data-progress="1.1.3" style="left: 14.705882352941176%;"></a>
+    
+        <a href="../chapter1-mvc/ids.html" title="ids" class="chapter done " data-progress="1.1.4" style="left: 17.647058823529413%;"></a>
+    
+        <a href="../chapter1-mvc/collect&amp;id.html" title="collect(&amp;:id)" class="chapter done " data-progress="1.1.5" style="left: 20.58823529411765%;"></a>
+    
+        <a href="../chapter1-mvc/includes.html" title="includes" class="chapter done " data-progress="1.1.6" style="left: 23.529411764705884%;"></a>
+    
+        <a href="../chapter1-mvc/counter_cache.html" title="counter_cache" class="chapter done " data-progress="1.1.7" style="left: 26.470588235294116%;"></a>
+    
+        <a href="../chapter1-mvc/sti.html" title="STI" class="chapter done " data-progress="1.1.8" style="left: 29.41176470588235%;"></a>
+    
+        <a href="../chapter1-mvc/polymorphic_assoiciaion.html" title="Polymorphic Assoiciaion" class="chapter done " data-progress="1.1.9" style="left: 32.35294117647059%;"></a>
+    
+        <a href="../chapter1-mvc/helper__model.html" title="不要把该放在 helper 的东西放在 model 里" class="chapter done " data-progress="1.1.10" style="left: 35.294117647058826%;"></a>
+    
+        <a href="../chapter1-mvc/refactor_controller_code_to_model.html" title="refactor controller code to model" class="chapter done " data-progress="1.1.11" style="left: 38.23529411764706%;"></a>
+    
+        <a href="../chapter1-mvc/gk6ia72j2_vu_u_e9.html" title="什麼東西應該放在View" class="chapter done " data-progress="1.2" style="left: 41.1764705882353%;"></a>
+    
+        <a href="../chapter1-mvc/helper.html" title="什麼是 helper" class="chapter done " data-progress="1.2.1" style="left: 44.11764705882353%;"></a>
+    
+        <a href="../chapter1-mvc/partial.html" title="什麼是 partial" class="chapter done " data-progress="1.2.2" style="left: 47.05882352941177%;"></a>
+    
+        <a href="../chapter1-mvc/collection_partial.html" title="什麼是 collection partial" class="chapter done " data-progress="1.2.3" style="left: 50%;"></a>
+    
+        <a href="../chapter1-mvc/partial___helper.html" title="什麼東西應該放在 partial / 什麼東西應該放在 helper" class="chapter done " data-progress="1.2.4" style="left: 52.94117647058823%;"></a>
+    
+        <a href="../chapter1-mvc/yield_in_view.html" title="yield in view" class="chapter done " data-progress="1.2.5" style="left: 55.88235294117647%;"></a>
+    
+        <a href="../chapter1-mvc/view.html" title="不應該放在 view 裡的東西" class="chapter done " data-progress="1.2.6" style="left: 58.8235294117647%;"></a>
+    
+        <a href="../chapter1-mvc/form.html" title="form" class="chapter done " data-progress="1.2.7" style="left: 61.76470588235294%;"></a>
+    
+        <a href="../chapter1-mvc/essential_helpers.html" title="essential helpers" class="chapter done " data-progress="1.2.8" style="left: 64.70588235294117%;"></a>
+    
+        <a href="../chapter1-mvc/helper_patterns.html" title="helper patterns" class="chapter done " data-progress="1.2.9" style="left: 67.6470588235294%;"></a>
+    
+        <a href="../chapter1-mvc/controller.html" title="什麼東西應該放在Controller" class="chapter done " data-progress="1.3" style="left: 70.58823529411765%;"></a>
+    
+        <a href="../chapter1-mvc/filters__before_filter,_after_filter,_around_filter" title="filters : before_filter, after_filter, around_filter" class="chapter done " data-progress="1.3.1" style="left: 73.52941176470588%;"></a>
+    
+        <a href="../chapter1-mvc/render_template.html" title="render :template" class="chapter done " data-progress="1.3.2" style="left: 76.47058823529412%;"></a>
+    
+        <a href="../chapter1-mvc/render_layout.html" title="render :layout" class="chapter done " data-progress="1.3.3" style="left: 79.41176470588235%;"></a>
+    
+        <a href="../chapter1-mvc/render_text.html" title="render :text" class="chapter done " data-progress="1.3.4" style="left: 82.3529411764706%;"></a>
+    
+        <a href="../chapter1-mvc/render_options.html" title="render options" class="chapter done " data-progress="1.3.5" style="left: 85.29411764705883%;"></a>
+    
+        <a href="../chapter1-mvc/redirec_to__render.html" title="redirec_to 與 render" class="chapter done " data-progress="1.3.6" style="left: 88.23529411764706%;"></a>
+    
+        <a href="../chapter1-mvc/respond_to__respond_with.html" title="respond_to 與 respond_with" class="chapter done " data-progress="1.3.7" style="left: 91.17647058823529%;"></a>
+    
+        <a href="../chapter1-mvc/builders.html" title="builders" class="chapter done " data-progress="1.3.8" style="left: 94.11764705882354%;"></a>
+    
+        <a href="../chapter2-rails/README.html" title="Chapter2 - 關於Rails" class="chapter done new-chapter" data-progress="2" style="left: 97.05882352941177%;"></a>
+    
+        <a href="../chapter3-ruby/README.html" title="Chapter3 - 關於ruby" class="chapter done new-chapter" data-progress="3" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_497">
+                    
+                        <h1 id="chapter3-ruby">Chapter3 - 關於Ruby</h1>
+<h2 id="ruby-syntax">Ruby syntax</h2>
+<p>不知道有什麼特別要說明的地方...Orz</p>
+<h2 id="string-array-hash">String / Array / Hash</h2>
+<p>在Ruby裡面，String / Array / Hash都是類別</p>
+<pre><code>&quot;&quot;.class #=&gt; String
+&quot;&quot;.class.class # =&gt; Class
+[].class #=&gt; Array
+[].class.class # =&gt; Class
+{}.class #=&gt; Hash
+{}.class.class # =&gt; Class
+</code></pre><p>因此我們可以呼叫各別的class method，例如：</p>
+<ul>
+<li>String：字串<pre><code class="lang-ruby"><span class="hljs-string">"hello world"</span>.capitalize <span class="hljs-comment"># =&gt; "Hello World"</span>
+</code></pre>
+</li>
+<li>Array：陣列<pre><code class="lang-ruby">[ <span class="hljs-string">"a"</span>, <span class="hljs-string">"b"</span> ] &lt;&lt; [ <span class="hljs-string">"c"</span>, <span class="hljs-string">"d"</span>, <span class="hljs-string">"e"</span> ] <span class="hljs-comment"># =&gt; [ "a", "b", "c", "d", "e" ]</span>
+</code></pre>
+</li>
+<li>Hash：由key-value鍵組成的檔案形態<pre><code class="lang-ruby">{<span class="hljs-symbol">:name</span> =&gt; <span class="hljs-string">"hello"</span>}.empty?   <span class="hljs-comment">#=&gt; false</span>
+{}.empty?   <span class="hljs-comment">#=&gt; true</span>
+</code></pre>
+</li>
+</ul>
+<p>可再參考 <a href="http://www.ruby-doc.org/" target="_blank">http://www.ruby-doc.org/</a> 獲得更多資訊。</p>
+<h2 id="map">map</h2>
+<p>請參考<a href="http://waynechu.logdown.com/posts/200744-about-mvc-model" target="_blank">[Rails 高級新手系列] 關於MVC-什麼東西應該放在Model</a>內的<code>collect(&amp;:id)</code>教學</p>
+<h2 id="lambda">lambda</h2>
+<p>要解釋lambda必須先解釋Proc
+Proc就是把block存成實例的方式，呼叫前加上<code>&amp;</code>就可以轉回block：</p>
+<pre><code class="lang-ruby">p = <span class="hljs-constant">Proc</span>.new { |x| puts x * <span class="hljs-number">2</span> }   <span class="hljs-comment"># 也可以寫成 p = proc { |x| puts x * 2 }</span>
+<span class="hljs-comment"># =&gt; #&lt;Proc:0x007ffb8c250488@(irb):66&gt;   存成Proc的實例</span>
+<span class="hljs-comment"># 要用時加上&amp;</span>
+[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>].each(&amp;p)
+<span class="hljs-comment"># =&gt; 2</span>
+<span class="hljs-comment"># =&gt; 4</span>
+<span class="hljs-comment"># =&gt; 6</span>
+p.<span class="hljs-keyword">class</span>
+<span class="hljs-comment"># =&gt; Proc</span>
+</code></pre>
+<p>lambda基本上也是Proc的實例，只是它的形態叫做lambda</p>
+<pre><code class="lang-ruby">lam = lambda { |x| puts x * <span class="hljs-number">2</span> }
+<span class="hljs-comment"># =&gt; #&lt;Proc:0x007ffb8c230408@(irb):5 (lambda)&gt;  也是存成Proc的實例，但是存成lambda的形態</span>
+[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>].each(&amp;lam)
+<span class="hljs-comment"># =&gt; 2</span>
+<span class="hljs-comment"># =&gt; 4</span>
+<span class="hljs-comment"># =&gt; 6</span>
+lam.<span class="hljs-keyword">class</span>
+<span class="hljs-comment"># =&gt; Proc</span>
+</code></pre>
+<p>lambda和proc的主要差別有兩個</p>
+<ol>
+<li>lambda會check參數數量，proc不會</li>
+</ol>
+<pre><code class="lang-ruby"><span class="hljs-comment"># lambda</span>
+lam = lambda { |x| puts x }
+lam.call(<span class="hljs-number">2</span>) <span class="hljs-comment">#=&gt; 2</span>
+lam.call(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) <span class="hljs-comment">#=&gt; ArgumentError: wrong number of arguments (2 for 1)</span>
+
+<span class="hljs-comment"># proc</span>
+proc = <span class="hljs-constant">Proc</span>.new { |x| puts x }
+proc.call(<span class="hljs-number">2</span>) <span class="hljs-comment">#=&gt; 2</span>
+proc.call(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) <span class="hljs-comment">#=&gt; 2    proc忽略了其他參數，只傳第一個</span>
+</code></pre>
+<ol>
+<li><code>return</code>的處理不同，lambda的<code>return</code>只會跳出lambda，proc的<code>return</code>會跳出整個method</li>
+</ol>
+<pre><code class="lang-ruby"><span class="hljs-function"><span class="hljs-keyword">def</span> </span>lambda_test
+  lam = lambda { <span class="hljs-keyword">return</span> }
+  lam.call
+  puts <span class="hljs-string">"Haha! after lam call, i survived!"</span>
+<span class="hljs-keyword">end</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> </span>proc_test
+  p = <span class="hljs-constant">Proc</span>.new { <span class="hljs-keyword">return</span> }
+  p.call
+  puts <span class="hljs-string">"after proc call, i survived!"</span>
+<span class="hljs-keyword">end</span>
+
+lambda_test <span class="hljs-comment"># =&gt; "Haha! after lam call, i survived!"</span>
+proc_test <span class="hljs-comment"># =&gt; #沒東西，因為在執行到puts前就跳出proc_test這個method了</span>
+</code></pre>
+<p>參考資料：
+<a href="http://augustl.com/blog/2008/procs_blocks_and_anonymous_functions/" target="_blank">http://augustl.com/blog/2008/procs_blocks_and_anonymous_functions/</a></p>
+<p><a href="http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/" target="_blank">http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/</a></p>
+<h2 id="self">self</h2>
+<p>self指的就是我們物件本身</p>
+<pre><code class="lang-ruby"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span><span class="hljs-keyword">self</span>.foo
+      <span class="hljs-string">"class method"</span>
+  <span class="hljs-keyword">end</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>foo
+      <span class="hljs-string">"instance method"</span>
+  <span class="hljs-keyword">end</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>foobar
+      <span class="hljs-keyword">self</span>.foo
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-comment">#class呼叫自己，self現在是Foo class</span>
+<span class="hljs-constant">Foo</span>.foo <span class="hljs-comment"># =&gt; "class method"</span>
+
+<span class="hljs-comment">#Foo class 的 object</span>
+f = <span class="hljs-constant">Foo</span>.new  <span class="hljs-comment"># =&gt; #&lt;Foo:0x007fd103969840&gt;</span>
+f.foo <span class="hljs-comment"># =&gt; "instance method"</span>
+<span class="hljs-comment"># foobar method 裡面的 self 就是 f 這個實例</span>
+f.foobar <span class="hljs-comment"># =&gt; "instance method"</span>
+</code></pre>
+<h2 id="block">block</h2>
+<p>Block是可以暫存一段ruby code的地方，用大括號<code>{}</code>表示
+舉例說明：</p>
+<pre><code class="lang-ruby"><span class="hljs-function"><span class="hljs-keyword">def</span> </span>block_test
+  puts <span class="hljs-string">"test start"</span>
+  <span class="hljs-keyword">yield</span>
+  puts <span class="hljs-string">"test done"</span>
+<span class="hljs-keyword">end</span>
+
+block_test{ puts <span class="hljs-string">"block working here!"</span> }
+<span class="hljs-comment"># =&gt; "test start"</span>
+<span class="hljs-comment"># =&gt; "block working here!"</span>
+<span class="hljs-comment"># =&gt; "test done"</span>
+</code></pre>
+<p>我們將程式存在block中並呼叫<code>block_test</code>方法，如此一來block的內容就會替代掉<code>yield</code>。</p>
+<p>此外常見的<code>do....end</code>也是block的表示方法：</p>
+<pre><code class="lang-ruby"><span class="hljs-variable">@people</span>.each <span class="hljs-keyword">do</span> |person|
+    puts person.name
+<span class="hljs-keyword">end</span>
+</code></pre>
+<h2 id="instance-method-class-method">instance method / class method</h2>
+<p>class method就是給class層級呼叫的method
+instance method則是給class的實例呼叫的method</p>
+<pre><code class="lang-ruby"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test</span></span>
+    <span class="hljs-comment"># 在class內定義method時加上self代表要直接取用class</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span><span class="hljs-keyword">self</span>.class_method
+      <span class="hljs-string">"class method"</span>
+  <span class="hljs-keyword">end</span>
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>instance_method
+      <span class="hljs-string">"instance method"</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-comment">#class的呼叫</span>
+<span class="hljs-constant">Test</span>.class_method <span class="hljs-comment"># =&gt; "class method"</span>
+<span class="hljs-constant">Test</span>.instance_method <span class="hljs-comment"># =&gt; NoMethodError: undefined method `instance_method' for Test:Class</span>
+
+<span class="hljs-comment">#class實例的呼叫</span>
+test = <span class="hljs-constant">Test</span>.new  <span class="hljs-comment"># =&gt; #&lt;Test:0x007fd103969840&gt;</span>
+test.class_method <span class="hljs-comment"># =&gt; undefined method `class_method' for #&lt;Test:0x007fd103969840&gt;</span>
+test.instance_method <span class="hljs-comment"># =&gt; "instance method"</span>
+</code></pre>
+<h2 id="instance-variable-class-variable">instance variable / class variable</h2>
+<p>簡單來說，class variable跟著class走，instance variable跟著實例走
+class variable跟instance variable都可以被繼承
+但只要是在class底下的任何實例改變了class變數，其他同個class的實例的class變數也會被改變
+class variable例子：</p>
+<pre><code class="lang-ruby"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Earth</span></span>
+    <span class="hljs-comment"># class variable用@@定義</span>
+  <span class="hljs-variable">@@pollution</span> = <span class="hljs-string">"low"</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HumanBorn</span> <span class="hljs-inheritance">&lt; <span class="hljs-parent">Earth</span></span></span>
+    <span class="hljs-variable">@@pollution</span> = <span class="hljs-string">"high"</span>
+<span class="hljs-keyword">end</span>
+<span class="hljs-comment"># 這時Earth的變數：</span>
+<span class="hljs-comment"># @<span class="hljs-yardoctag">@pollution</span> =&gt; "high"  #因為是class variable所以被HumanBorn更改了</span>
+</code></pre>
+<p>但若class底下的實例是改變實例變數，那麼就只會在實例中被改變，不會影響到其他實例
+instance variable例子：</p>
+<pre><code class="lang-ruby"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Kid</span></span>
+    <span class="hljs-variable">@age</span> = <span class="hljs-number">1</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>grow_up
+      <span class="hljs-variable">@age</span> = <span class="hljs-variable">@age</span> +<span class="hljs-number">1</span>
+  <span class="hljs-keyword">end</span>
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>show_age
+      <span class="hljs-variable">@age</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+wayne = <span class="hljs-constant">Kid</span>.new
+wayne.show_age <span class="hljs-comment"># =&gt; 1</span>
+wayne.grow_up
+wayne.show_age <span class="hljs-comment"># =&gt; 2</span>
+
+jason = <span class="hljs-constant">Kid</span>.new
+<span class="hljs-comment"># wayne.grow_up改變的是wayne這個實例內的instance variable，所以不影響jason這個實例</span>
+jason.show_age <span class="hljs-comment"># =&gt; 1</span>
+</code></pre>
+<h2 id="mixin-extend-inheritance">Mixin / Extend / Inheritance</h2>
+<p>喔喔喔喔！Mixin ＆ Extend可以參考之前寫過的筆記：
+<a href="https://logdown.com/account/posts/200503-ruby-class-and-module" target="_blank">https://logdown.com/account/posts/200503-ruby-class-and-module</a></p>
+<p>另外補充Inheritance：
+繼承的意思就是繼承者擁有被繼承者的特性
+所以子類別可以呼叫父類別的方法</p>
+<pre><code class="lang-ruby"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span></span>
+  <span class="hljs-variable">@last_name</span> = <span class="hljs-string">"james"</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>laugh
+      <span class="hljs-string">"heeeeeeeeha!"</span>
+  <span class="hljs-keyword">end</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>last_name
+      <span class="hljs-variable">@last_name</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span> <span class="hljs-inheritance">&lt; <span class="hljs-parent">Parent</span></span></span>
+<span class="hljs-keyword">end</span>
+
+dad = <span class="hljs-constant">Parent</span>.new
+son = <span class="hljs-constant">Child</span>.new
+<span class="hljs-comment">#Child可以呼叫Parent的method</span>
+papa.laugh <span class="hljs-comment"># =&gt; "heeeeeeeeha!"</span>
+son.laugh <span class="hljs-comment"># =&gt; "heeeeeeeeha!"</span>
+<span class="hljs-comment">#Child也繼承了Parent的實例變數</span>
+son.last_name <span class="hljs-comment"># =&gt; "james"</span>
+</code></pre>
+<h2 id="override">override</h2>
+<p>ruby class內的method都是可以被更改的，例如我們可以更改class Array內的to_s方法：</p>
+<pre><code class="lang-ruby"><span class="hljs-comment"># 原本的to_s method</span>
+[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>].to_s <span class="hljs-comment">#=&gt; [1, 2, 3]</span>
+
+<span class="hljs-comment"># 重新'打開'Array這個class</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Array</span></span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> </span>to_s
+    <span class="hljs-string">"hahaha! you can't convert to string right now, uh?"</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+<span class="hljs-comment"># 再試一次to_s method</span>
+[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>].to_s <span class="hljs-comment">#=&gt; "hahaha! you can't convert to string right now, uh?"</span>
+</code></pre>
+<p>如此一來我們就可以靈活運用各種method了。</p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter2-rails/README.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Chapter2 - 關於Rails"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
