@@ -1,6 +1,7 @@
 # Chapter1 - 關於MVC
 
-[參考文章](http://www.hksilicon.com/kb/cn/articles/32064/Rails)
+
+
 
 ##MVC三部曲：
 
