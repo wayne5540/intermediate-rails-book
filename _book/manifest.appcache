@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# Revision 1402640529617
+# Revision 1402650452888
 
 CACHE:
-chapter1-mvc/partial.html
 index.html
+chapter1-mvc/partial.html
 chapter1-mvc/README.html
 chapter1-mvc/collect&id.html
 chapter1-mvc/collection_partial.html
@@ -11,10 +11,11 @@ chapter1-mvc/controller.html
 chapter1-mvc/counter_cache.html
 chapter1-mvc/essential_helpers.html
 chapter1-mvc/form.html
+chapter1-mvc/filters__before_filter,_after_filter,_around_filter.html
 chapter1-mvc/gk6ia72j2_vu_u_e9.html
 chapter1-mvc/helper.html
-chapter1-mvc/helper_patterns.html
 chapter1-mvc/helper__model.html
+chapter1-mvc/helper_patterns.html
 chapter1-mvc/ids.html
 chapter1-mvc/includes.html
 chapter1-mvc/model.html
@@ -35,7 +36,24 @@ chapter1-mvc/validation.html
 chapter1-mvc/view.html
 chapter1-mvc/yield_in_view.html
 chapter2-rails/README.html
+chapter2-rails/bundler.html
+chapter2-rails/i18n.html
+chapter2-rails/rack.html
+chapter2-rails/rake.html
+chapter2-rails/restful.html
+chapter2-rails/routing.html
+chapter2-rails/unobtrusive_javascript.html
+chapter3-ruby/map.html
 chapter3-ruby/README.html
+chapter3-ruby/instance_method__class_method.html
+chapter3-ruby/instance_variable__class_variable.html
+chapter3-ruby/lambda.html
+chapter3-ruby/block.html
+chapter3-ruby/mixin__extend__inheritance.html
+chapter3-ruby/override.html
+chapter3-ruby/ruby_syntax.html
+chapter3-ruby/self.html
+chapter3-ruby/string__array__hash.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot

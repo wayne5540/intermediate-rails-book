@@ -15,7 +15,7 @@ Rails官方對content_type的說明：
 
 * :layout
 
-文章上方已解釋過，可參考[render :layout](chapter1-mvc/render_layout.md)的部分
+文章上方已解釋過，可參考[render :layout](render_layout.md)的部分
 
 * :location
 

@@ -2,7 +2,7 @@
 
 正常的Partial只會將內容Render出來一次，collection partial則會自動count我們給予的物件，並render count的次數，可以省去在Partial內再寫block或helper的繁瑣，讓partial更簡潔。
 
-延續[上一題](chapter1-mvc/partial.md)的例子，我們可以改寫成：
+延續[上一題](partial.md)的例子，我們可以改寫成：
 
 _topic_list.html.erb
 ```erb

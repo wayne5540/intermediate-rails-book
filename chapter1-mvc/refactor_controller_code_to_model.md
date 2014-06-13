@@ -50,7 +50,7 @@ end
 
 ##2.多利用scope，把ORM的邏輯都放回model
 
-見[scope介紹](chapter1-mvc/scope.md)
+見[scope介紹](scope.md)
 
 
 

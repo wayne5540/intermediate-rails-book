@@ -7,12 +7,14 @@ MVC指是Ｍ(Model)、Ｖ(View)、Ｃ(Controller)，是軟體開發的一種架�
 
 ##MVC三部曲：
 
-[[Rails 高級新手系列] 關於MVC-什麼東西應該放在View](http://waynechu.logdown.com/posts/200715-about-mvc-view)
+[Model](model.md)
 
-[[Rails 高級新手系列] 關於MVC-什麼東西應該放在Controller](http://waynechu.logdown.com/posts/200719-about-mvc-controller)
+[View](gk6ia72j2_vu_u_e9.md)
+
+[Controller](controller.md)
 
 
-[[Rails 高級新手系列] 關於MVC-什麼東西應該放在Model](http://logdown.com/account/posts/200744-about-mvc-model)
+
 
 
 
